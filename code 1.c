@@ -5,6 +5,7 @@ int main(){
 	printf("enter the string:");
 	scanf("%s",&c);
 	len=strlen(c);
+	//if (str[0] == '\0')---->tried using this when the user enters an empty string but did not work 
 	for (i=0;i<len;i++)
 	{
 		if ((c[i]>=65 && c[i]<90) || (c[i]>=97 && c[i]<122) || (c[i]>=48 && c[i]<57))
